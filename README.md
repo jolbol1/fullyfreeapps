@@ -27,6 +27,6 @@ Cloudflare Email Routing forwards support@fullyfreeapps.com and developer@fullyf
 
 ## Apple enrollment status
 
-The website is deployed and both email aliases are active. Apple enrollment is at the personal-information step. D-U-N-S lookup, organization verification, name confirmation, program agreement/payment, App ID, App Store Connect record and app submission remain outstanding. Do not create the first app record until the permanent developer name is decided.
+The website is deployed and both email aliases are active. Apple enrollment returned “Your enrollment could not be completed” after the personal-information step, before organization selection. Apple Developer Support needs to resolve the account enrollment issue. D-U-N-S lookup, organization verification, name confirmation, program agreement/payment, App ID, App Store Connect record and app submission remain outstanding. Do not create the first app record until the permanent developer name is decided.
 
 The legal seller will be MWD Studios Ltd. Fully Free Apps is the proposed public developer name, subject to Apple’s trade-name requirements.
