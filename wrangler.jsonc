@@ -2,20 +2,15 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "fullyfreeapps",
   "account_id": "b37ff4a067fd1e70b1916d5c122a7008",
-  "main": "vinext/server/fetch-handler",
+  "main": "@tanstack/react-start/server-entry",
   "compatibility_date": "2026-09-04",
   "compatibility_flags": ["nodejs_compat"],
   "routes": [
-    {
-      "pattern": "fullyfreeapps.com",
-      "custom_domain": true,
-    },
-    {
-      "pattern": "www.fullyfreeapps.com",
-      "custom_domain": true,
-    },
+    { "pattern": "fullyfreeapps.com", "custom_domain": true },
+    { "pattern": "www.fullyfreeapps.com", "custom_domain": true },
   ],
-  "observability": {
-    "enabled": false,
-  },
+  // Prerendered pages live at /slate/index.html etc.; serve them at /slate.
+  "assets": { "html_handling": "drop-trailing-slash" },
+  // Invocation logs stay off: the site keeps no visitor logs or analytics.
+  "observability": { "enabled": false },
 }

@@ -8,6 +8,9 @@
     "pnpm-lock.yaml",
     "yarn.lock",
     "bun.lock",
-    "bun.lockb"
+    "bun.lockb",
+    "src/routeTree.gen.ts",
+    "dist",
+    "public"
   ]
 }
